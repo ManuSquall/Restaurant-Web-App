@@ -6,6 +6,10 @@ body  {
     width: 80%;
     margin-left: 10%;
     margin-top: 2%;
+    border-radius: 10%;
+    border-color: black;
+    border-width: 50%;
+    border: 5em;
 }
 
 .display-4{

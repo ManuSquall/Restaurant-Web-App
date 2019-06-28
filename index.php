@@ -112,7 +112,7 @@ if( isset($_SESSION['commandes'])){
                                 <th>Quantité</th>
                                 <th>Total</th>
                                 <th>
-                                    <a href="ajouter.php" class="btn btn-sm btn-success text-white"><i class="fa fa-plus"></i> Ajouter </a>
+                                    <a href="ajouter.php" class="btn btn-sm btn-warning text-white"><i class="fa fa-plus"></i> Ajouter </a>
                                 </th>
                             </thead>
                             <tbody>
@@ -146,7 +146,7 @@ if( isset($_SESSION['commandes'])){
                                 <i class="fa fa-database"></i>
                                 Enregistrer
                             </button>
-                            <a href="details.php" class="btn btn-outline-dark ml-1"><i class="fa fa-table"></i> Détails commandes</a>
+                            <a href="details.php" class="btn btn-outline-success ml-1"><i class="fa fa-table"></i> Détails commandes</a>
                         </div>
                     </form>
                 </div>

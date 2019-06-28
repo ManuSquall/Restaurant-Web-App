@@ -71,8 +71,8 @@ $produits=getProduits();
         </div>
     </div>
     <div class="form-group">
-        <button name="submit" id="submit" type="submit" class="btn btn-dark"> Ajouter</button>
-        <a href="index.php" ><button type="button" class="btn btn-outline-dark ml-2"> Retour</button></a>
+        <button name="submit" id="submit" type="submit" class="btn btn-primary"> Ajouter</button>
+        <a href="index.php" ><button type="button" class="btn btn-outline-warning ml-2"> Retour</button></a>
     </div>
 </form>
 </div>

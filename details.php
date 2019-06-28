@@ -73,7 +73,7 @@ $listecommandes=getcommandes();
                                                 <td> <?=$nbr?> </td>
                                                 <td> <?=$c['total']?> </td>
                                                 <td>
-                                                    <a href="detailprod.php?idCom=<?=$c['id_commande']?>" class="btn btn-sm btn-info text-white squall"><i class="fa fa-edit"></i>Détails</a>
+                                                    <a href="detailprod.php?idCom=<?=$c['id_commande']?>" class="btn btn-sm btn-warning text-white squall"><i class="fa fa-edit"></i>Détails</a>
                                                 </td>
                                                 </tr>
                                             <?php } ?>
