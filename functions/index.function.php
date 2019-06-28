@@ -52,6 +52,16 @@ function getcommandebyid($a){
     return $db->query($sql)->fetch();
 }
 
+function getproduitbyidcom($squall){
+
+    global $db;
+
+    $sql="select * from produitcommande inner join produit on produitcommande.id_produit = produit.id_produit where id_commande=".$squall;
+    return $db->query($sql)->fetchAll();
+
+
+}
+
 
 
 

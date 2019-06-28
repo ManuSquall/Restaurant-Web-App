@@ -4,7 +4,15 @@ session_start();
 
 require_once "functions/index.function.php";
 
-getcomm
+if ($_GET['idCom']){
+
+    $squall=getcommandebyid($_GET['idCom']);
+    // var_dump($squall);
+    $produits=getproduitbyidcom($_GET['idCom']);
+    var_dump($produits);
+}
+
+
 
 $listecommandes=getcommandes();
 
@@ -36,45 +44,37 @@ $listecommandes=getcommandes();
                 <div class="col-md-10 offset-md-1">
 
 
-    <h4 class="display-4">Commands list</h4>
+    <h5 class="display-5">Produits de la commande <?=$squall['numero']?> </h5>
 <hr>
 <!-- ############################# -->
 
 
 <table class="table table-borderless">
                             <thead class="thead-light">
-                                <th>Numéro</th>
-                                <th>Date</th>
-                                <th>Nombre de produits</th>
-                                <th>Montant Total</th>
-                                <th>Détails</th>
+                                <th>Commande</th>
+                                <th>Libelle</th>
+                                <th>Quantite</th>
+                                <th>Prix</th>
                             </thead>
                             <tbody>
                                         <!-- A afficher si aucun produit n'est selectionné -->
-                                <?php if(count($listecommandes)==0) { ?>
+                                <?php if(count($produits)==0) { ?>
                                     <tr >
-                                    <td class="font-italic text-center" colspan="5">
-                                        Vous n'avez pas encore enregistré de commandes!
+                                    <td class="font-italic text-center" colspan="4">
+                                        Cette commande n'a pas de produits: c'est normalement impossible :-)!
                                     </td>
                                     </tr>
                                 <?php } ?>
-                                            <?php foreach ($listecommandes as $c) { 
+                                            <?php foreach ($produits as $c) { 
                                                 
-                                                //generer la date
-                                                $date= substr($c['numero'], 4,8);
-                                                $date = substr($date, 0,2)."-".substr($date, 2,2)."-".substr($date, 4,4);
-                                                
-                                                $nbr = getnbrprod($c['id_commande'])[0];
                                                 
                                                 ?>
                                                 <tr >
-                                                <td> <?=$c['numero']?> </td>
-                                                <td> <?=$date?> </td>
-                                                <td> <?=$nbr?> </td>
-                                                <td> <?=$c['total']?> </td>
-                                                <td>
-                                                    <a href="detailprod.php?idCom=<?=$c['id_commande']?>" class="btn btn-sm btn-info text-white squall"><i class="fa fa-edit"></i>Détails</a>
-                                                </td>
+                                                <td> <?=$squall['numero']?> </td>
+                                                <td> <?=$c['libelle']?> </td>
+                                                <td> <?=$c['quantite']?> </td>
+                                                <td> <?=$c['prix']?> </td>
+                                                
                                                 </tr>
                                             <?php } ?>
                                 
@@ -86,7 +86,7 @@ $listecommandes=getcommandes();
 
 
                         <div class="form-group">
-        <a href="index.php" ><button type="button" class="btn btn-outline-dark ml-2"> Retour</button></a>
+        <a href="details.php" ><button type="button" class="btn btn-outline-dark ml-2"> Retour</button></a>
     </div>
 
 <!-- ############################# -->
