@@ -19,22 +19,24 @@ $listecommandes=getcommandes();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <title>Resto-App</title>
+    <link rel="stylesheet" href="assets/css/squall.css">
+    <title>Squall Gourmet</title>
 </head>
 <body>
 <div class="jumbotron jumbotron-fluid">
 
         <h3 class="display-4 text-center">
-            <img width="5%" src="assets/img/food.png" alt="">
-            Restaurant App.
+        <img width="7%" src="assets/img/squall.ico" alt="">
+        <span id="squalltitle">
+            Squall Gourmet
+            </span>
         </h3>
-
+<hr>
         <div class="container">
             <div class="row">
                 <div class="col-md-10 offset-md-1">
 
-
-    <h4 class="display-4">Commands list</h4>
+                <h5 class="display-5">Commands list </h5>
 <hr>
 <!-- ############################# -->
 

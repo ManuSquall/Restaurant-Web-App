@@ -27,7 +27,7 @@ if( isset($_SESSION['commandes'])){
 //echo $somme;
 
 
-var_dump($_SESSION['commandes']);
+// var_dump($_SESSION['commandes']);
 // ////////////
 
 
@@ -40,7 +40,8 @@ var_dump($_SESSION['commandes']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <title>Resto App</title>
+    <link rel="stylesheet" href="assets/css/squall.css">
+    <title>Squall Gourmet</title>
 </head>
 
 <body>
@@ -48,9 +49,12 @@ var_dump($_SESSION['commandes']);
     <div class="jumbotron jumbotron-fluid">
 
         <h3 class="display-4 text-center">
-            <img width="5%" src="assets/img/food.png" alt="">
-            Restaurant App.
+            <img width="7%" src="assets/img/squall.ico" alt="">
+            <span id="squalltitle">
+            Squall Gourmet
+            </span>
         </h3> 
+        <hr>
 
         <div class="container">
             <div class="row">
@@ -135,6 +139,7 @@ var_dump($_SESSION['commandes']);
                                 
                             </tbody>
                         </table>
+                        <hr>
 
                         <div class="form-group">
                             <button name="save" type="submit" class="btn btn-dark" disabled>

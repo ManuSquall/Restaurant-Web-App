@@ -1,0 +1,19 @@
+body  {
+    background-color: blueviolet;
+}
+
+.jumbotron-fluid{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.display-4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#squalltitle{
+    font-weight: bold;
+}
