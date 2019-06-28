@@ -1,0 +1,42 @@
+$("document").ready(function(){
+
+    $('#quantite').val(1);
+    $('#submit').attr('disabled', 'disabled');
+    var value = '';
+    var libelle = '';
+    var id = 0;
+    var prix = 0;
+
+    $('#quantite').change(function(){
+        var total = prix * $('#quantite').val();
+        $('#total').val(total);
+        if($('#quantite').val()<1){
+            $('#submit').attr('disabled', 'disabled');
+        }else{
+            $('#submit').removeAttr('disabled');
+        }
+    });
+
+    $("#produit").change(function(event){
+        $('#quantite').val(1);
+        $('#total').val(0);
+        value = $("#produit option:selected").val();
+        libelle = $("#produit option:selected").text();
+        $('#libelle').val(libelle); 
+        id = value.split('-')[0];
+        prix = value.split('-')[1];
+
+        if(value !=0 ){
+            $('#total').val(prix);
+            $('#submit').removeAttr('disabled');
+        }else{
+            $('#submit').attr('disabled', 'disabled');
+        }
+
+        
+        $('#prix').val(prix);
+    });
+});
+
+
+// look the video 
