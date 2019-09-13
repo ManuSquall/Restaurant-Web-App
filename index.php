@@ -125,7 +125,7 @@ if( isset($_SESSION['commandes'])){
                                     </tr>
                                 <?php } ?>
                                             <?php foreach ($commandes as $c) { ?>
-                                                <tr >
+                                                <tr >      
                                                 <td> <?=$c['libelle']?> </td>
                                                 <td> <?=$c['prix']?> </td>
                                                 <td> <?=$c['qte']?> </td>
