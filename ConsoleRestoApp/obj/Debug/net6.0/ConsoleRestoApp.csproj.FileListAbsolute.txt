@@ -1,0 +1,14 @@
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\bin\Debug\net6.0\ConsoleRestoApp.exe
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\bin\Debug\net6.0\ConsoleRestoApp.deps.json
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\bin\Debug\net6.0\ConsoleRestoApp.runtimeconfig.json
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\bin\Debug\net6.0\ConsoleRestoApp.dll
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\bin\Debug\net6.0\ConsoleRestoApp.pdb
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ConsoleRestoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ConsoleRestoApp.AssemblyInfoInputs.cache
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ConsoleRestoApp.AssemblyInfo.cs
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ConsoleRestoApp.csproj.CoreCompileInputs.cache
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ConsoleRestoApp.dll
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\refint\ConsoleRestoApp.dll
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ConsoleRestoApp.pdb
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ConsoleRestoApp.genruntimeconfig.cache
+C:\Users\manusquall\Source\Repos\ManuSquall\Restaurant-Web-App\ConsoleRestoApp\obj\Debug\net6.0\ref\ConsoleRestoApp.dll
